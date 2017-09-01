@@ -1,0 +1,112 @@
+/* !To highlight comments for the sidebar, you need to put a '!' in front of the text. */
+
+body h1 {
+	font-family: "Cerebri Sans", /*<--Love this font!*/ "Times New Roman", Arial, sans-serif;
+	color: #FFE485;
+	margin: 0;
+}
+
+/* !!!: Find out if I can use Cerebri Sans in a commercial "church theme"? */
+
+body h3 {
+	font-family: "Helsinki", "Times New Roman", Arial, sans-serif;
+	color: #E43515;
+	margin: 0;
+	padding-left: 10.25em;
+}
+
+img {
+	float: left;
+	margin: 10px;
+	border: solid 3px;
+	padding: 5px;
+}
+
+footer { /* !!!: I want this to be below everything else */
+	font-family: "Montserrat", "Times New Roman", sans-serif;
+	font-weight: bold;
+	float: left;
+	padding-right: auto; /* !Is this code correct?? It does what I want it to do, but is there another way? */
+	margin: 0;
+}
+
+nav li {
+	font-family: "Cerebri Sans", "Times New Roman", Arial, sans-serif;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFE485;	
+}
+
+a:active {
+	color: #E43515;
+}
+
+body {
+	background-color: #B0C4DE;
+}
+
+#bigpicture h1 {
+	margin-top: 70px;
+	padding: 30px;
+	text-align: center;
+	color: #00BFFF;
+}
+
+#bigpicturetwo h1 {
+	margin-top: 70px;
+	padding: 30px;
+	text-align: center;
+	color: #FFE485;
+}
+
+/* !How do I make it so the border collapses around the text? */
+
+#whatweareabout h3 {
+	font-family: "Cerebri Sans", "Times New Roman", Arial, sans-serif;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	border: 3px solid #08FE91;
+}
+/* !!: Figure out how to make an image stay in one place, because it shifts with screen size, which I don't want to happen. */
+
+#bigpicture {
+	background-image: url(images/rawpixel-com-196464-darker.png);
+	background-position: left center; /* <--This is how you center it :) [there's also like background-position-x and background-position-y so there's even more manipulation.] */
+}
+
+#bigpicturetwo {
+	background-image: url(images/eugene-quek-111785.jpg);
+	background-position: left center;
+}
+
+#aboutdescription { /* ! !: I mean this part works, it just doesn't look as good as it could... */
+	text-align: center;
+}
+
+#pastorcrazy {
+	text-align: center;
+}
+
+#location {
+	padding-top: 2em;
+	text-align: left;
+}
+
+#sermonlist a {
+	text-decoration: none;
+}
+
+#sermonlist a:hover {
+	color: #FFE485;	
+}
+
+#sermonlist a:active {
+	color: #E43515;
+}
